@@ -1,0 +1,18 @@
+# 编译生成的中间文件和目标文件
+*.o
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+
+# Makefile 编译出的可执行文件 (假设你的目标叫 main)
+main
+
+# 编辑器和系统自带的隐藏目录/文件
+.vscode/
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
